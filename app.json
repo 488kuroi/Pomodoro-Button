@@ -1,8 +1,8 @@
 {
   "name": "Pomodoro Button",
-  "description": "A simple pomodoro button to get thing done",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "description": "A simple pomodoro button to get things done",
+  "repository": "",
+  "logo": "",
   "keywords": ["node", "express", "heroku", "pomodoro", "button", "timer"],
   "image": "heroku/nodejs"
 }
