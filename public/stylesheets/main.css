@@ -1,0 +1,40 @@
+
+  /* fonts */
+  @font-face { font-family: manga;
+  src: url( '../fonts/mangat.ttf' );
+}
+
+  .container { padding-top: 50px; }
+  h2 { font-family: manga; font-size: 40px; text-align: center; margin-bottom: 30px; color: #d0483c; filter: grayscale( 100% ); }
+  .pomodoro img { max-width: 100%; height: auto; filter: grayscale( 0% ); }
+  button { padding: 12px 12px!important; }
+  #timer { padding-top: 40px; font-size: 50px; font-family: manga; text-transform: uppercase; }
+  @media screen and ( max-width: 500px ){
+    .container { padding-top: 10px; }
+    h2 { font-size: 30px; }
+  }
+
+  /* float animation */
+  .floating{
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}
+}
